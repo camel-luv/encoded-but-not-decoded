@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+
+# Local outputs from running the pipeline
+results/
+outputs/
+*.jsonl.tmp
+
+# Local model caches if user puts them inside the repo
+models/
+
+# Editor swap files
+*.swp
+*.swo
